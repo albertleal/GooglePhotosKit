@@ -15,6 +15,18 @@
 		8933C78E1EB5B82C000D00A4 /* GooglePhotosKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* GooglePhotosKitTests.swift */; };
 		8933C78F1EB5B82C000D00A4 /* GooglePhotosKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* GooglePhotosKitTests.swift */; };
 		8933C7901EB5B82D000D00A4 /* GooglePhotosKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* GooglePhotosKitTests.swift */; };
+		B33BA6DF20A65D51001BA661 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6DE20A65D51001BA661 /* MediaItem.swift */; };
+		B33BA6E020A65D51001BA661 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6DE20A65D51001BA661 /* MediaItem.swift */; };
+		B33BA6E120A65D51001BA661 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6DE20A65D51001BA661 /* MediaItem.swift */; };
+		B33BA6E220A65D51001BA661 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6DE20A65D51001BA661 /* MediaItem.swift */; };
+		B33BA6E820A664D9001BA661 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6E720A664D9001BA661 /* Album.swift */; };
+		B33BA6E920A664D9001BA661 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6E720A664D9001BA661 /* Album.swift */; };
+		B33BA6EA20A664D9001BA661 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6E720A664D9001BA661 /* Album.swift */; };
+		B33BA6EB20A664D9001BA661 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6E720A664D9001BA661 /* Album.swift */; };
+		B33BA6ED20A66993001BA661 /* AlbumPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6EC20A66993001BA661 /* AlbumPosition.swift */; };
+		B33BA6EE20A66993001BA661 /* AlbumPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6EC20A66993001BA661 /* AlbumPosition.swift */; };
+		B33BA6EF20A66993001BA661 /* AlbumPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6EC20A66993001BA661 /* AlbumPosition.swift */; };
+		B33BA6F020A66993001BA661 /* AlbumPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BA6EC20A66993001BA661 /* AlbumPosition.swift */; };
 		DD7502881C68FEDE006590AF /* GooglePhotosKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* GooglePhotosKit.framework */; };
 		DD7502921C690C7A006590AF /* GooglePhotosKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* GooglePhotosKit.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +65,9 @@
 		8933C7891EB5B82A000D00A4 /* GooglePhotosKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePhotosKitTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* GooglePhotosKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GooglePhotosKit.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* GooglePhotosKitTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GooglePhotosKitTests.plist; sourceTree = "<group>"; };
+		B33BA6DE20A65D51001BA661 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		B33BA6E720A664D9001BA661 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		B33BA6EC20A66993001BA661 /* AlbumPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPosition.swift; sourceTree = "<group>"; };
 		DD75027A1C68FCFC006590AF /* GooglePhotosKit-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GooglePhotosKit-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD75028D1C690C7A006590AF /* GooglePhotosKit-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GooglePhotosKit-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,6 +164,7 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B33BA6E620A65D66001BA661 /* Models */,
 				8933C7841EB5B820000D00A4 /* GooglePhotosKit.swift */,
 			);
 			path = Sources;
@@ -161,6 +177,16 @@
 			);
 			name = Tests;
 			path = Tests/GooglePhotosKitTests;
+			sourceTree = "<group>";
+		};
+		B33BA6E620A65D66001BA661 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B33BA6DE20A65D51001BA661 /* MediaItem.swift */,
+				B33BA6E720A664D9001BA661 /* Album.swift */,
+				B33BA6EC20A66993001BA661 /* AlbumPosition.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DD7502721C68FC1B006590AF /* Frameworks */ = {
@@ -347,7 +373,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "GooglePhotosKit";
+				ORGANIZATIONNAME = GooglePhotosKit;
 				TargetAttributes = {
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -459,7 +485,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33BA6ED20A66993001BA661 /* AlbumPosition.swift in Sources */,
 				8933C7851EB5B820000D00A4 /* GooglePhotosKit.swift in Sources */,
+				B33BA6DF20A65D51001BA661 /* MediaItem.swift in Sources */,
+				B33BA6E820A664D9001BA661 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +504,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33BA6EF20A66993001BA661 /* AlbumPosition.swift in Sources */,
 				8933C7871EB5B820000D00A4 /* GooglePhotosKit.swift in Sources */,
+				B33BA6E120A65D51001BA661 /* MediaItem.swift in Sources */,
+				B33BA6EA20A664D9001BA661 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +515,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33BA6F020A66993001BA661 /* AlbumPosition.swift in Sources */,
 				8933C7881EB5B820000D00A4 /* GooglePhotosKit.swift in Sources */,
+				B33BA6E220A65D51001BA661 /* MediaItem.swift in Sources */,
+				B33BA6EB20A664D9001BA661 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +526,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33BA6EE20A66993001BA661 /* AlbumPosition.swift in Sources */,
 				8933C7861EB5B820000D00A4 /* GooglePhotosKit.swift in Sources */,
+				B33BA6E020A65D51001BA661 /* MediaItem.swift in Sources */,
+				B33BA6E920A664D9001BA661 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
